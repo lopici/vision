@@ -10,6 +10,7 @@
 		0158DF662025D39C00C2D7E9 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158DF652025D39C00C2D7E9 /* RoundedShadowView.swift */; };
 		0158DF682025D58B00C2D7E9 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158DF672025D58B00C2D7E9 /* RoundedShadowButton.swift */; };
 		0158DF6A2025D60300C2D7E9 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158DF692025D60300C2D7E9 /* RoundedShadowImageView.swift */; };
+		017678B520424E45009D021F /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 017678B420424E45009D021F /* SqueezeNet.mlmodel */; };
 		018C9EB9201D941300F5296C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C9EB8201D941300F5296C /* AppDelegate.swift */; };
 		018C9EBB201D941300F5296C /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C9EBA201D941300F5296C /* CameraVC.swift */; };
 		018C9EBE201D941300F5296C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018C9EBC201D941300F5296C /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		0158DF652025D39C00C2D7E9 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		0158DF672025D58B00C2D7E9 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		0158DF692025D60300C2D7E9 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		017678B420424E45009D021F /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		018C9EB5201D941300F5296C /* vision-app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vision-app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018C9EB8201D941300F5296C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018C9EBA201D941300F5296C /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		018C9ECC201D945000F5296C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				017678B420424E45009D021F /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018C9EBB201D941300F5296C /* CameraVC.swift in Sources */,
+				017678B520424E45009D021F /* SqueezeNet.mlmodel in Sources */,
 				018C9EB9201D941300F5296C /* AppDelegate.swift in Sources */,
 				0158DF662025D39C00C2D7E9 /* RoundedShadowView.swift in Sources */,
 				0158DF682025D58B00C2D7E9 /* RoundedShadowButton.swift in Sources */,
